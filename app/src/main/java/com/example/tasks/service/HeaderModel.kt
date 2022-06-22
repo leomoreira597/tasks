@@ -11,6 +11,6 @@ class HeaderModel {
     var personKey: String = ""
 
     @SerializedName("name")
-    var names: String = ""
+    var name: String = ""
 
 }
