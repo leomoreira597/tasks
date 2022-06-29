@@ -58,7 +58,7 @@ class TaskFormActivity : AppCompatActivity(), View.OnClickListener, DatePickerDi
         val bundle = intent.extras
         if (bundle != null){
             mTaskId = bundle.getInt(TaskConstants.BUNDLE.TASKID)
-            mViewModel.load(mTaskId)
+            mViewModel.load(mTaskId )
         }
     }
 
